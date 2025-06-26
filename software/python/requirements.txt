@@ -1,0 +1,26 @@
+# Requirements for Parallel Gripper Control Software
+# STServo SDK for Feetech/Waveshare servo communication
+# Note: STServo SDK may need to be installed manually from:
+# https://github.com/FEETECH-RC/STServo_SDK_Python
+
+# Standard library dependencies (included with Python)
+# - sys
+# - os  
+# - time
+# - termios (Linux/Mac)
+# - msvcrt (Windows)
+
+# Installation instructions:
+# 1. Clone STServo SDK: git clone https://github.com/FEETECH-RC/STServo_SDK_Python.git
+# 2. Copy STservo_sdk folder to your project directory or Python path
+# 3. Install any additional dependencies if needed
+
+# Optional dependencies for enhanced functionality:
+# numpy>=1.21.0          # For advanced mathematical operations
+# matplotlib>=3.5.0      # For plotting servo data
+# pyserial>=3.5          # Alternative serial communication (if needed)
+
+# Development dependencies (optional):
+# pytest>=7.0.0          # For unit testing
+# black>=22.0.0          # Code formatting
+# flake8>=4.0.0          # Code linting 
