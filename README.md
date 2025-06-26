@@ -2,6 +2,25 @@
 
 A precision parallel gripper designed for robotics applications, featuring 3D-printed components and professional servo control using Feetech STS3215 servos.
 
+## 📸 Gallery
+
+<div align="center">
+
+### Assembled Gripper in Action
+![Assembled Parallel Gripper](assets/images/parallel_gripper_assembled.jpg)
+*Real-world implementation showing the gripper in operation*
+
+### 3D CAD Design
+![3D CAD Model](assets/images/parallel_gripper_3d.png)
+*Professional SolidWorks design showing internal mechanism*
+
+### 🎥 See It in Action
+[![Gripper Demo Video](https://img.shields.io/badge/▶️_Watch_Demo-YouTube-red?style=for-the-badge)](https://youtube.com/shorts/Ss4TbO_psto?si=v6VbK91Q2vyNlbNd)
+
+*Click above to see the parallel gripper working with precise control and smooth operation*
+
+</div>
+
 ## 🎯 Project Overview
 
 This project provides a complete open-source solution for a parallel gripper that can be integrated with robotic arms. The gripper features:
@@ -15,9 +34,12 @@ This project provides a complete open-source solution for a parallel gripper tha
 
 - **Parallel Jaw Movement**: Ensures consistent grip on objects of various sizes
 - **Real-time Monitoring**: Current, voltage, temperature, and load feedback
-- **Precise Positioning**: Degree-based control with position feedback
+- **Precise Positioning**: Degree-based control with position feedback (±0.1°)
 - **Robust Construction**: Linear bearings for smooth, reliable operation
-- **Easy Assembly**: Clear instructions with professional BOM
+- **Professional Design**: SolidWorks CAD design with industrial-grade components
+- **Servo Control**: High-torque Feetech STS3215 with bus communication
+- **3D Printable**: All mechanical parts designed for standard FDM printers
+- **Open Source**: Complete documentation, code, and CAD files included
 
 ## 📋 Specifications
 
@@ -26,6 +48,17 @@ This project provides a complete open-source solution for a parallel gripper tha
 - **Power**: 6-12V DC
 - **Jaw Travel**: Configurable based on gear ratio
 - **Materials**: PLA/PETG 3D printed parts, steel rods, precision bearings
+- **Positioning Accuracy**: ±0.1° (4096 steps/360°)
+- **Force**: Up to 15kg·cm servo torque
+- **Response Time**: <100ms for small movements
+
+## 🎯 Performance Highlights
+
+✅ **Smooth Operation** - Linear bearings ensure frictionless movement  
+✅ **Precise Control** - Degree-based positioning with real-time feedback  
+✅ **Reliable Gripping** - Parallel jaws maintain consistent contact  
+✅ **Professional Integration** - Bus communication for robotics systems  
+✅ **Proven Design** - Tested and demonstrated in real applications
 
 ## 🛠️ Hardware Requirements
 

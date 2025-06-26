@@ -2,6 +2,9 @@
 
 Get your parallel gripper up and running in 30 minutes!
 
+## 🎥 See the Final Result
+Before you start, check out the [working gripper in action](https://youtube.com/shorts/Ss4TbO_psto?si=v6VbK91Q2vyNlbNd) to see what you'll be building!
+
 ## What You'll Need
 
 ### Hardware
