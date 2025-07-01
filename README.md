@@ -8,11 +8,11 @@ A precision parallel gripper designed for robotics applications, featuring 3D-pr
 
 ### Assembled Gripper in Action
 ![Assembled Parallel Gripper](assets/images/parallel_gripper_assembled.jpg)
-*Real-world implementation showing the gripper in operation*
+*Real-world implementation of the gripper*
 
 ### 3D CAD Design
 ![3D CAD Model](assets/images/parallel_gripper_3d.png)
-*Professional SolidWorks design showing internal mechanism*
+*3D CAD design showing internal mechanism*
 
 ### 🎥 See It in Action
 [![Gripper Demo Video](https://img.shields.io/badge/▶️_Watch_Demo-YouTube-red?style=for-the-badge)](https://youtube.com/shorts/Ss4TbO_psto?si=v6VbK91Q2vyNlbNd)
@@ -36,7 +36,7 @@ This project provides a complete open-source solution for a parallel gripper tha
 - **Real-time Monitoring**: Current, voltage, temperature, and load feedback
 - **Precise Positioning**: Degree-based control with position feedback (±0.1°)
 - **Robust Construction**: Linear bearings for smooth, reliable operation
-- **Professional Design**: SolidWorks CAD design with industrial-grade components
+- **Professional Design**: CAD design with industrial-grade components
 - **Servo Control**: High-torque Feetech STS3215 with bus communication
 - **3D Printable**: All mechanical parts designed for standard FDM printers
 - **Open Source**: Complete documentation, code, and CAD files included
