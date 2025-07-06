@@ -6,7 +6,7 @@ A precision parallel gripper designed for robotics applications, featuring 3D-pr
 
 <div align="center">
 
-### Assembled Gripper in Action
+### Assembled Gripper
 ![Assembled Parallel Gripper](assets/images/parallel_gripper_assembled.jpg)
 *Real-world implementation of the gripper*
 
@@ -20,6 +20,19 @@ A precision parallel gripper designed for robotics applications, featuring 3D-pr
 *Click above to see the parallel gripper working with precise control and smooth operation*
 
 </div>
+
+## 💰 Total Project Cost
+
+**Complete Build Cost: $69.45-74.45** *(Amazon pricing)*
+
+| Category | Cost (USD) |
+|----------|------------|
+| Electronic Components | $39.98 |
+| Mechanical Components | $22.87 |
+| 3D Printing Materials | $5-10 |
+| Fasteners | $1.60 |
+
+*All components available on Amazon with direct purchase links in [Bill of Materials](docs/bom-amazon.md)*
 
 ## 🎯 Project Overview
 
@@ -63,7 +76,7 @@ This project provides a complete open-source solution for a parallel gripper tha
 ## 🛠️ Hardware Requirements
 
 ### Electronic Components
-- 1x Feetech STS3215 Servo Motor
+- 1x Feetech STS3215-C018 Servo Motor or Waveshare STS3215
 - 1x Bus Servo Adapter Board (Waveshare or compatible)
 
 ### Mechanical Components
