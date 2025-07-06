@@ -8,7 +8,7 @@ This document lists all components required to build the parallel gripper. Links
 
 | Item | Description | Qty | Supplier Link | Price |  Notes |
 |------|-------------|-----|---------------|-------|--------|
-| ST3215 Servo | Waveshare Servo Motor STS3215 | 1 | [Amazon – Feetech STS3215 Servo](https://www.amazon.com/Precision-Programmable-Magnetic-Switchable-XYGStudy/dp/B0B95TFJ4H) | $28.99 | High-precision bus servo with feedback |
+| ST3215 Servo | Waveshare Servo Motor STS3215 | 1 | [Amazon – Waveshare STS3215 Servo](https://www.amazon.com/Precision-Programmable-Magnetic-Switchable-XYGStudy/dp/B0B95TFJ4H) | $28.99 | High-precision bus servo with feedback |
 | Bus Servo Adapter | Waveshare Bus Servo Adapter Board | 1 | [Amazon – Bus Servo Adapter A](https://www.amazon.com/Waveshare-Integrates-Control-Applicable-Integrate/dp/B0CJ6TP3TP) | $10.99 | TTL/RS485 communication interface |
 
 ## Mechanical Components
@@ -76,7 +76,7 @@ This document lists all components required to build the parallel gripper. Links
 | Fasteners | $1.60 (approximate) |
 | **Total** | **$69.45-74.45** |
 
-*Costs based on Amazon pricing as of current date. Bulk quantities provide significant savings on fasteners.*
+*Costs based on Amazon pricing as of current date - 6th of June 2025. Bulk quantities provide significant savings on fasteners.*
 
 ## Sourcing Notes
 
