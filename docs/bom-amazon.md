@@ -7,7 +7,7 @@ This document lists all components required to build the parallel gripper. Links
 ## Electronic Components
 
 | Item | Description | Qty | Supplier Link | Price |  Notes |
-|------|-------------|-----|---------------|-------|
+|------|-------------|-----|---------------|-------|--------|
 | ST3215 Servo | Waveshare Servo Motor STS3215 | 1 | [Amazon – Feetech STS3215 Servo](https://www.amazon.com/Precision-Programmable-Magnetic-Switchable-XYGStudy/dp/B0B95TFJ4H) | $28.99 | High-precision bus servo with feedback |
 | Bus Servo Adapter | Waveshare Bus Servo Adapter Board | 1 | [Amazon – Bus Servo Adapter A](https://www.amazon.com/Waveshare-Integrates-Control-Applicable-Integrate/dp/B0CJ6TP3TP) | $10.99 | TTL/RS485 communication interface |
 
@@ -16,7 +16,7 @@ This document lists all components required to build the parallel gripper. Links
 ### Bearings
 
 | Item | Description | Qty | Supplier Link | Price | Notes |
-|------|-------------|-----|---------------|-------|
+|------|-------------|-----|---------------|-------|-------|
 | MR106ZZ | Ball Bearing 10×6×3 mm | 2 | [Amazon – ACROPIX MR106ZZ Bearings (10pcs)](https://www.amazon.com/ACROPIX-Bearings-Shielded-Pre-Lubricated-Deep-6x10x3mm/dp/B0C4PGLSCY) | $5.49 (10pcs) | Shielded, pre-lubricated |
 | LM6UU | Linear Bearing 6×12×19 mm | 4 | [Amazon – uxcell LM6UU Bearings (4pcs)](https://www.amazon.com/uxcell-LM6UU-Linear-Bearings-Length/dp/B07H95CWTX) | $8.99 (4pcs) | For smooth linear motion |
 
