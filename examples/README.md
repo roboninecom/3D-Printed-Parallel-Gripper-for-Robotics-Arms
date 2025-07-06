@@ -46,8 +46,8 @@ sudo usermod -a -G dialout $USER
 
 ### STServo SDK Issues
 Make sure the STServo SDK is properly installed:
-1. Download from: https://github.com/FEETECH-RC/STServo_SDK_Python
-2. Copy `STservo_sdk` folder to your Python path or project directory
+1. Download from: [STServo Python SDK](https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip)
+2. Extract the downloaded ZIP file and copy the `STservo_sdk` folder (with the folder itself) to `software/python/` directory
 
 ## Creating Your Own Examples
 
