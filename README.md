@@ -31,6 +31,7 @@ A precision parallel gripper designed for robotics applications, featuring 3D-pr
 | Mechanical Components | $22.87 |
 | 3D Printing Materials | $5-10 |
 | Fasteners | $1.60 |
+| **Total** | **$69.45-74.45** |
 
 *All components available on Amazon with direct purchase links in [Bill of Materials](docs/bom-amazon.md)*
 
