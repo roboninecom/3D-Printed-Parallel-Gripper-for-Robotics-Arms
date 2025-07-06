@@ -89,7 +89,11 @@ This project provides a complete open-source solution for a parallel gripper tha
 1. **Print the Parts**: Use the STL files in `/hardware/3d-models/`
 2. **Gather Components**: Order parts from the [Bill of Materials](docs/bom.md)
 3. **Assembly**: Follow the [Assembly Guide](docs/assembly-guide.md)
-4. **Software Setup**: Install Python dependencies and run the control software
+4. **Software Setup**: 
+   - Download and install the STServo SDK:
+     - Download [STServo Python SDK](https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip)
+     - Extract the ZIP file and copy the `STservo_sdk` folder to `software/python/` directory
+   - Install Python dependencies and run the control software:
 
 ```bash
 pip install -r software/python/requirements.txt
