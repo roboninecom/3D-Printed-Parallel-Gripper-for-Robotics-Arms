@@ -1,6 +1,6 @@
 # Open-Source 3D-Printed Parallel Gripper for Robotics Arms
 
-A precision parallel gripper designed for robotics applications, featuring 3D-printed components and professional servo control using Feetech STS3215 servos.
+A precision parallel gripper designed by ![Robonine(https://robonine.com) for robotics applications, featuring 3D-printed components and professional servo control using Feetech STS3215 servos.
 
 ## 📸 Gallery
 
@@ -155,4 +155,4 @@ For questions and support:
 
 ---
 
-**Built for the robotics community** 🤖 
+**Built for the robotics community by ![Robonine(https://robonine.com)** 🤖 
