@@ -28,6 +28,8 @@ import os
 import time
 import logging
 from typing import Tuple, Optional
+import serial.tools.list_ports
+from pathlib import Path 
 
 # Cross-platform keyboard input handling
 if os.name == 'nt':
@@ -47,8 +49,9 @@ else:
         finally:
             termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
 
-# Add STServo SDK to path
-sys.path.append("..")
+# Graceful SDK path handling using pathlib
+sdk_path = Path(__file__).resolve().parent.parent / "STservo_sdk"
+sys.path.append(str(sdk_path))
 
 try:
     from STservo_sdk import *
@@ -58,6 +61,18 @@ except ImportError:
     print("Copy the STservo_sdk folder to your project directory or Python path.")
     sys.exit(1)
 
+# Dynamic COM port selection
+print("\n🔌 Available COM ports:")
+ports = list(serial.tools.list_ports.comports())
+if not ports:
+    print("❌ No COM ports found. Please connect your device and try again.")
+    sys.exit(1)
+for idx, port in enumerate(ports):
+    print(f"  [{idx}] {port.device}")
+
+choice = input("Select port number (default 0): ").strip()
+SELECTED_PORT = ports[int(choice)].device if choice.isdigit() and int(choice) < len(ports) else ports[0].device
+
 # Configuration Constants
 class GripperConfig:
     """Configuration parameters for the parallel gripper"""
@@ -65,7 +80,7 @@ class GripperConfig:
     # Servo Configuration
     STS_ID = 1                  # Servo ID (can be changed if multiple servos)
     BAUDRATE = 1000000         # Communication baud rate (1 Mbps)
-    DEVICENAME = 'COM7'        # Serial port (adjust for your system)
+    DEVICENAME = SELECTED_PORT  # Dynamic port from user selection
     
     # Motion Parameters
     MAX_DEGREE = 360           # Maximum rotation (degrees)
