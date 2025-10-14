@@ -6,7 +6,6 @@ A precision parallel gripper designed by [Robonine](https://robonine.com) for ro
 
 <div align="center">
 
-### 📧 Contact Us
 **Questions? We're here to help!**  
 📩 Email: [hello@robonine.com](mailto:hello@robonine.com)
 
@@ -171,7 +170,6 @@ For questions and support:
 
 **Built for the robotics community by [Robonine](https://robonine.com)** 🤖
 
-### 📧 Contact Us
 **Questions? We're here to help!**  
 📩 Email: [hello@robonine.com](mailto:hello@robonine.com)
 
