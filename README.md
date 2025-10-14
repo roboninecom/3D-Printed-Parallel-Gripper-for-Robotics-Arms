@@ -2,6 +2,18 @@
 
 A precision parallel gripper designed by [Robonine](https://robonine.com) for robotics applications, featuring 3D-printed components and professional servo control using Feetech STS3215 servos.
 
+---
+
+<div align="center">
+
+### 📧 Contact Us
+**Questions? We're here to help!**  
+📩 Email: [hello@robonine.com](mailto:hello@robonine.com)
+
+</div>
+
+---
+
 ## 📸 Gallery
 
 <div align="center">
@@ -155,4 +167,12 @@ For questions and support:
 
 ---
 
-**Built for the robotics community by [Robonine](https://robonine.com)** 🤖 
+<div align="center">
+
+**Built for the robotics community by [Robonine](https://robonine.com)** 🤖
+
+### 📧 Contact Us
+**Questions? We're here to help!**  
+📩 Email: [hello@robonine.com](mailto:hello@robonine.com)
+
+</div>
