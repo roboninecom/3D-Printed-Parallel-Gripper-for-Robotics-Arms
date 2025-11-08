@@ -1,4 +1,4 @@
-# Open-Source 3D-Printed Parallel Gripper for Robotics Arms
+# 3D-Printed Parallel Gripper / SO-ARM 100
 
 A precision parallel gripper designed by [Robonine](https://robonine.com) for robotics applications, featuring 3D-printed components and professional servo control using Feetech STS3215 servos.
 
